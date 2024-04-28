@@ -37,12 +37,16 @@
         <div class="right bg-grey rounded">
             <div class="header ">
                 <div class="nav">
-                    <span class="material-symbols-outlined">keyboard_arrow_left</span>
-                    <span class="material-symbols-outlined">keyboard_arrow_right</span>
+                    <svg class="addbg" xmlns="http://www.w3.org/2000/svg" width="35" height="35" stroke-width="1.5" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <svg class="addbg" xmlns="http://www.w3.org/2000/svg" width="35" height="35" stroke-width="1.5" viewBox="0 0 24 24" fill="none">
+                        <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
                 </div>
                 <div class="buttons">
-                    <button>Signup</button>
-                    <button>Login</button>
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
                 </div>
             </div>
             <div class="spotifyPlaylists">
@@ -78,6 +82,16 @@
                         <h2>Happy Hits!</h2>
                         <p>Hits to boost your mood and fill you with happiness!</p>
                     </div>
+                    <div class="playbar"></div>
+                </div>
+                <div class="playbar">
+                    <div class="songinfo"></div>
+                    <div class="songButtons">
+                        <img  src="prevsong.svg" alt="">
+                        <img class="bg" src="play.svg" alt="">
+                        <img src="nextsong.svg" alt="">
+                    </div>
+                    <div class="songtime"></div>
                 </div>
             </div>
         </div>
